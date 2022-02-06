@@ -5,7 +5,7 @@ environments:
     mode: pull-request
   - name: anotherBranch
     branch: anotherBranch
-    mode: pull-request
+    mode: read
 apps:
   - name: Test
     path: ""
