@@ -5,7 +5,7 @@ environments:
     mode: pull-request
 apps:
   - name: Test
-    path: "/"
+    path: ""
     text-resources:
-      - path: /*.json
+      - path: src/*.json
         format: flat-key-value
