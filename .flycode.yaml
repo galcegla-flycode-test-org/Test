@@ -2,10 +2,7 @@ version: "0.1"
 environments:
   - name: main
     branch: main
-    mode: read
-  - name: anotherBranch
-    branch: anotherBranch
-    mode: write
+    mode: pull-request
 apps:
   - name: Test
     path: ""
