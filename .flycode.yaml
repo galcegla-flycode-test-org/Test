@@ -3,11 +3,8 @@ environments:
   - name: main
     branch: main
     mode: pull-request
-  - name: another
-    branch: anotherBranch
-    mode: pull-request
 apps:
-  - name: test
+  - name: Test
     path: ""
     text-resources:
       - path: src/*.json
