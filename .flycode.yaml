@@ -4,7 +4,7 @@ environments:
     branch: main
     mode: pull-request
 apps:
-  - name: Test
+  - name: test
     path: ""
     text-resources:
       - path: src/*.json
